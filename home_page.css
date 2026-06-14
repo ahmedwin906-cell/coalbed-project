@@ -1,0 +1,113 @@
+body {
+  background-color: #ba9b73;
+}
+header {
+  background-color: #544634;
+}
+header p {
+  color: #4a3428;
+  font-weight: 700;
+  text-decoration: underline;
+}
+header {
+  display: flex;
+  flex-wrap: wrap;
+}
+header img {
+  height: 50px;
+  width: 50px;
+  padding: 7px;
+}
+footer {
+  background-color: #4a3428;
+}
+footer p {
+  color: #ba9b73;
+}
+#AB {
+  height: 300;
+  width: 150;
+  padding: 10px;
+}
+ul li {
+  list-style: none;
+}
+.find_us h2 {
+  text-decoration: underline;
+}
+.bigg {
+  display: flex;
+}
+.products{
+   padding:50px
+}
+
+
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.slider {
+  width: 700px;
+  height: 400px;
+  overflow: hidden;
+  margin: 50px auto;
+}
+
+input {
+  display: none;
+}
+
+.slides {
+  display: flex;
+  width: 300%;
+  height: 100%;
+  transition: 0.7s ease;
+}
+
+.slide {
+  width: 33.333%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.slide img {
+  width: 500px;
+  height: 350px;
+  object-fit: cover;
+}
+
+.btn {
+  font-size: 40px;
+  cursor: pointer;
+  padding: 20px;
+  user-select: none;
+}
+.slider{
+    border: 3px solid #4a3428;
+    border-radius: 20px;
+}
+
+
+
+
+
+#slide1:checked ~ .slides {
+  transform: translateX(0);
+}
+
+#slide2:checked ~ .slides {
+  transform: translateX(-33.333%);
+}
+
+#slide3:checked ~ .slides {
+  transform: translateX(-66.666%);
+}
+
