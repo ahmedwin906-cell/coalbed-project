@@ -1,0 +1,96 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="home_page.css" />
+  </head>
+  <body>
+    <header>
+      <img src="./images/d.png" />
+      <p><i>vintage style</i></p>
+      <span class="brbr">
+      <a href="#" id="brbr"> SIGN IN</a>
+      </span>
+    </header>
+
+    <div class="slider">
+      
+      <input type="radio" name="slide" id="slide1" checked />
+      <input type="radio" name="slide" id="slide2" />
+      <input type="radio" name="slide" id="slide3" />
+
+    
+      <div class="slides">
+        <div class="slide">
+          <label for="slide3" class="btn">&#10094;</label>
+
+          <img src="./images/image1.jpeg" alt="" />
+
+          <label for="slide2" class="btn">&#10095;</label>
+        </div>
+
+        <div class="slide">
+          <label for="slide1" class="btn">&#10094;</label>
+
+          <img src="./images/image2.jpeg" alt="" />
+
+          <label for="slide3" class="btn">&#10095;</label>
+        </div>
+
+        <div class="slide">
+          <label for="slide2" class="btn">&#10094;</label>
+
+          <img src="./images/image3.jpeg" alt="" />
+
+          <label for="slide1" class="btn">&#10095;</label>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+    
+
+
+
+
+
+
+
+    <footer>
+      <div class="bigg">
+        <span>
+          <a><img id="AB" src="./images/shop.jpeg" /></a>
+        </span>
+        <span class="find_us">
+          <h2><b>FOLLOW US:</b></h2>
+          <ul>
+            <li>
+              <a><img src="#" /></a>
+              <h4>instagram:</h4>
+              <br />
+              <p>username</p>
+            </li>
+            <li>
+              <a><img src="#" /></a>
+              <h4>tiktok:</h4>
+              <br />
+              <p>username</p>
+            </li>
+            <li>
+              <a><img src="#" /></a>
+              <h4>facebook:</h4>
+              <br />
+              <p>username</p>
+            </li>
+          </ul>
+        </span>
+      </div>
+    </footer>
+  </body>
+</html>
+
