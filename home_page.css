@@ -41,7 +41,18 @@ ul li {
 .products{
    padding:50px
 }
-
+.brbr{
+  flex-wrap: wrap-reverse;
+  margin-right: auto;
+}
+#brbr{
+  
+  border: 2px solid #9c733e;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 16px;
+  color:#7e5e34 ;
+}
 
 
 
