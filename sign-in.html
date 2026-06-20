@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sign In | Vintage Style</title>
+  <link rel="stylesheet" href="home_page.css" />
+  <link rel="stylesheet" href="sign-in.css" />
+</head>
+<body>
+  <div class="sign-in-page">
+    <header class="top-nav">
+      <div class="brand">
+        <img src="./images/d.png" alt="Vintage style logo" />
+        <p><i>vintage style</i></p>
+      </div>
+      <nav>
+        <a href="home_page.html">Home</a>
+        <a href="#">Shop</a>
+        <a href="#">About</a>
+        <a href="sign-in.html" class="signup-btn">Sign in</a>
+      </nav>
+    </header>
+
+    <main class="signin-main">
+      <section class="signin-card">
+        <h2>Welcome Back</h2>
+        <p>Sign in to continue your shopping</p>
+        <form class="signin-form">
+          <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Enter your email" />
+          </div>
+          <div>
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Enter your password" />
+          </div>
+          <div class="options">
+            <label><input type="checkbox" /> Remember me</label>
+            <a href="#">Forgot password?</a>
+          </div>
+          <button type="submit" class="signin-btn">Sign In</button>
+        </form>
+
+        <div class="divider">or continue with</div>
+        <div class="social-btns">
+          <button>Google</button>
+          <button>Facebook</button>
+        </div>
+
+        <p class="signup-link">
+          Don't have an account? <a href="#">Sign up</a>
+        </p>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
