@@ -1,23 +1,67 @@
 body {
   background-color: #ba9b73;
+  font-family: Arial, sans-serif;
 }
-header {
+
+.top-nav {
   background-color: #544634;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  gap: 15px;
 }
-header p {
-  color: #4a3428;
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.brand p {
+  color: #f5e7c8;
   font-weight: 700;
   text-decoration: underline;
+  margin: 0;
 }
-header {
-  display: flex;
-  flex-wrap: wrap;
-}
-header img {
+
+.brand img {
   height: 50px;
   width: 50px;
   padding: 7px;
 }
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+nav a {
+  color: #f5e7c8;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.signup-btn {
+  background-color: #ba9b73;
+  color: #4a3428;
+  padding: 10px 16px;
+  border-radius: 999px;
+  font-weight: 700;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.2s ease;
+}
+
+.signup-btn:hover {
+  background-color: #d3b38a;
+}
+
+nav a:hover {
+  color: #fff3cc;
+}
+
 footer {
   background-color: #4a3428;
 }
@@ -60,7 +104,7 @@ ul li {
   margin: 50px auto;
 }
 
-input {
+.slider input {
   display: none;
 }
 
